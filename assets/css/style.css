@@ -1,0 +1,53 @@
+body{
+    box-sizing: border-box;
+}
+
+input{
+    width: 50%;
+}
+p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.pagina{
+    display: grid;
+    gap: 1rem;
+    margin-top: 3rem;
+    grid-template-columns: repeat(2,1fr);;
+    grid-template-rows: repeat(2,1fr);
+}
+
+.formPresupuesto{
+    grid-column:1/2 ;
+    grid-row: 1/2;
+    height: 70%;
+    border: 1px solid green;
+    background-color: #00ff0070;
+}
+.formGastos{
+    grid-column:1/2 ;
+    grid-row: 2/3;
+    border: 1px solid red;
+    background-color: #ff50507e;
+}
+
+.bloque_Diseño{
+    padding: 0.5rem 2rem;
+    border-radius: 1rem;
+}
+
+.infoPresupuesto{
+    justify-content: center;
+    display:flex;
+    gap: 5rem;
+    width: 100%;
+    text-align: center;
+   
+}
+
+.tablaGastos{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
